@@ -1,0 +1,3 @@
+/home/code/projects/Capstone project/build/CMakeFiles/rebuild_cache.dir
+/home/code/projects/Capstone project/build/CMakeFiles/edit_cache.dir
+/home/code/projects/Capstone project/build/CMakeFiles/madelbrot_fractal.dir

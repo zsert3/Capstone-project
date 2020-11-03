@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/code/projects/Capstone project/build",
+  "command": "/bin/g++-9   -g   -std=c++17 -o CMakeFiles/madelbrot_fractal.dir/src/main.cpp.o -c \"/home/code/projects/Capstone project/src/main.cpp\"",
+  "file": "/home/code/projects/Capstone project/src/main.cpp"
+}
+]

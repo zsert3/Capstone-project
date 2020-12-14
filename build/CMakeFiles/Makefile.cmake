@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.18.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.18.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.18.2/CMakeSystem.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake"
   "/usr/local/share/cmake-3.18/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake-3.18/Modules/CMakeCXXInformation.cmake"
   "/usr/local/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -45,5 +46,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/madelbrot_fractal.dir/DependInfo.cmake"
+  "CMakeFiles/SnakeGame.dir/DependInfo.cmake"
   )

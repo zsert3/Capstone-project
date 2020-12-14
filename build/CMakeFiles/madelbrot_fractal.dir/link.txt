@@ -1,1 +1,0 @@
-/bin/g++-9 -g CMakeFiles/madelbrot_fractal.dir/src/main.cpp.o -o madelbrot_fractal 

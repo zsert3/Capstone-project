@@ -39,7 +39,7 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/code/projects/Capstone project/build"
+			"value" : "/home/code/projects/Capstone-project/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -514,10 +514,6 @@
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
@@ -595,7 +591,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/code/projects/Capstone project"
+			"value" : "/home/code/projects/Capstone-project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -839,7 +835,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "HelloWorld"
+			"value" : "SDL2Test"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1122,7 +1118,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "HelloWorld_BINARY_DIR",
+			"name" : "SDL2Test_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1131,10 +1127,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/code/projects/Capstone project/build"
+			"value" : "/home/code/projects/Capstone-project/build"
 		},
 		{
-			"name" : "HelloWorld_SOURCE_DIR",
+			"name" : "SDL2Test_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1143,7 +1139,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/code/projects/Capstone project"
+			"value" : "/home/code/projects/Capstone-project"
+		},
+		{
+			"name" : "SDL2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2"
 		}
 	],
 	"kind" : "cache",

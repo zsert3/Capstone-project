@@ -26,7 +26,7 @@
 					[
 						0
 					],
-					"name" : "HelloWorld",
+					"name" : "SDL2Test",
 					"targetIndexes" : 
 					[
 						0
@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "madelbrot_fractal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-madelbrot_fractal-Debug-ad50cccd4f5048fb9577.json",
-					"name" : "madelbrot_fractal",
+					"id" : "SnakeGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SnakeGame-Debug-4a0afc1bdeffb220315f.json",
+					"name" : "SnakeGame",
 					"projectIndex" : 0
 				}
 			]
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/code/projects/Capstone project/build",
-		"source" : "/home/code/projects/Capstone project"
+		"build" : "/home/code/projects/Capstone-project/build",
+		"source" : "/home/code/projects/Capstone-project"
 	},
 	"version" : 
 	{

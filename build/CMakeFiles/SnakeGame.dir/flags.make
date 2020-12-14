@@ -4,7 +4,7 @@
 # compile CXX with /bin/g++-9
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/usr/include/SDL2 -I/home/code/projects/Capstone-project/src
 
 CXX_FLAGS = -g   -std=c++17
 

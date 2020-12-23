@@ -6,17 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/code/projects/Capstone-project/src/controller.cpp
-controller.h
 /home/code/projects/Capstone-project/src/controller.h
-iostream
--
-SDL.h
-/home/code/projects/Capstone-project/src/SDL.h
 snake.h
 /home/code/projects/Capstone-project/src/snake.h
 
-/home/code/projects/Capstone-project/src/controller.h
+/home/code/projects/Capstone-project/src/food.cpp
+food.h
+/home/code/projects/Capstone-project/src/food.h
+
+/home/code/projects/Capstone-project/src/food.h
+random
+-
+SDL.h
+/home/code/projects/Capstone-project/src/SDL.h
 snake.h
 /home/code/projects/Capstone-project/src/snake.h
 
@@ -39,6 +41,8 @@ renderer.h
 /home/code/projects/Capstone-project/src/renderer.h
 snake.h
 /home/code/projects/Capstone-project/src/snake.h
+food.h
+/home/code/projects/Capstone-project/src/food.h
 
 /home/code/projects/Capstone-project/src/main.cpp
 iostream
@@ -50,14 +54,6 @@ game.h
 renderer.h
 /home/code/projects/Capstone-project/src/renderer.h
 
-/home/code/projects/Capstone-project/src/renderer.cpp
-renderer.h
-/home/code/projects/Capstone-project/src/renderer.h
-iostream
--
-string
--
-
 /home/code/projects/Capstone-project/src/renderer.h
 vector
 -
@@ -65,14 +61,6 @@ SDL.h
 /home/code/projects/Capstone-project/src/SDL.h
 snake.h
 /home/code/projects/Capstone-project/src/snake.h
-
-/home/code/projects/Capstone-project/src/snake.cpp
-snake.h
-/home/code/projects/Capstone-project/src/snake.h
-cmath
--
-iostream
--
 
 /home/code/projects/Capstone-project/src/snake.h
 vector

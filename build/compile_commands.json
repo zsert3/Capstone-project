@@ -1,8 +1,13 @@
 [
 {
   "directory": "/home/code/projects/Capstone-project/build",
-  "command": "/bin/g++-9  -I/usr/include/SDL2 -I/home/code/projects/Capstone-project/src -g   -std=c++17 -o CMakeFiles/SnakeGame.dir/src/main.cpp.o -c /home/code/projects/Capstone-project/src/main.cpp",
-  "file": "/home/code/projects/Capstone-project/src/main.cpp"
+  "command": "/bin/g++-9  -I/usr/include/SDL2 -I/home/code/projects/Capstone-project/src -g   -std=c++17 -o CMakeFiles/SnakeGame.dir/src/controller.cpp.o -c /home/code/projects/Capstone-project/src/controller.cpp",
+  "file": "/home/code/projects/Capstone-project/src/controller.cpp"
+},
+{
+  "directory": "/home/code/projects/Capstone-project/build",
+  "command": "/bin/g++-9  -I/usr/include/SDL2 -I/home/code/projects/Capstone-project/src -g   -std=c++17 -o CMakeFiles/SnakeGame.dir/src/food.cpp.o -c /home/code/projects/Capstone-project/src/food.cpp",
+  "file": "/home/code/projects/Capstone-project/src/food.cpp"
 },
 {
   "directory": "/home/code/projects/Capstone-project/build",
@@ -11,8 +16,8 @@
 },
 {
   "directory": "/home/code/projects/Capstone-project/build",
-  "command": "/bin/g++-9  -I/usr/include/SDL2 -I/home/code/projects/Capstone-project/src -g   -std=c++17 -o CMakeFiles/SnakeGame.dir/src/controller.cpp.o -c /home/code/projects/Capstone-project/src/controller.cpp",
-  "file": "/home/code/projects/Capstone-project/src/controller.cpp"
+  "command": "/bin/g++-9  -I/usr/include/SDL2 -I/home/code/projects/Capstone-project/src -g   -std=c++17 -o CMakeFiles/SnakeGame.dir/src/main.cpp.o -c /home/code/projects/Capstone-project/src/main.cpp",
+  "file": "/home/code/projects/Capstone-project/src/main.cpp"
 },
 {
   "directory": "/home/code/projects/Capstone-project/build",

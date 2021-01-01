@@ -18,30 +18,32 @@ void Food::PlaceFood(Snake &snake){
         if (!snake.SnakeCell(x, y)) {
             food.x = x;
             food.y = y;
-            assignEffect();
+            assignRndEffect();
             return;
         }
     }
 }
 
-void Food::executeEffect(float &snakeSpeed){
+void Food::executeEffect(float &speedEffect){
     switch (effect)
     {
     case FoodEffect::speedUp:
-        snakeSpeed = snakeSpeed * 2;
+        speedEffect = 2.0;
         break;
     
     case FoodEffect::slowDown:
-    snakeSpeed = snakeSpeed * 0.5;
+        speedEffect = 0.5;
         break;
 
     case FoodEffect::nothing:
+        speedEffect = 1.0;
         break;
     }
-
 }
 
-void Food::assignEffect(){
+
+
+void Food::assignRndEffect(){
     // -1 because enum starts counting at 0
     int nbrOfEffects = static_cast<int>(FoodEffect::count) - 1;
     std::uniform_int_distribution<size_t> randomEnum(0, nbrOfEffects);

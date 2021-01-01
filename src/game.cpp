@@ -60,11 +60,14 @@ void Game::Update() {
   // Check if there's food over here
   if (foodObject.food.x == new_x && foodObject.food.y == new_y) {
     score++;
-    foodObject.executeEffect(snake.speed);
-    foodObject.PlaceFood(snake);
-    // Grow snake and increase speed.
+     // Grow snake and increase speed.
     snake.GrowBody();
+    // first check if an effect is active (let the effects stack
+    // speed should consist of 'normal' and 'effect' speed)
     snake.speed += 0.02;
+
+    foodObject.executeEffect(snake.speedEffect);
+    foodObject.PlaceFood(snake);
   }
 }
 

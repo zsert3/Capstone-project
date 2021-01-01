@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/code/projects/Capstone-project/src/controller.cpp
+controller.h
+/home/code/projects/Capstone-project/src/controller.h
+iostream
+-
+SDL.h
+/home/code/projects/Capstone-project/src/SDL.h
+snake.h
+/home/code/projects/Capstone-project/src/snake.h
+
 /home/code/projects/Capstone-project/src/controller.h
 snake.h
 /home/code/projects/Capstone-project/src/snake.h
@@ -54,6 +64,14 @@ game.h
 renderer.h
 /home/code/projects/Capstone-project/src/renderer.h
 
+/home/code/projects/Capstone-project/src/renderer.cpp
+renderer.h
+/home/code/projects/Capstone-project/src/renderer.h
+iostream
+-
+string
+-
+
 /home/code/projects/Capstone-project/src/renderer.h
 vector
 -
@@ -61,6 +79,14 @@ SDL.h
 /home/code/projects/Capstone-project/src/SDL.h
 snake.h
 /home/code/projects/Capstone-project/src/snake.h
+
+/home/code/projects/Capstone-project/src/snake.cpp
+snake.h
+/home/code/projects/Capstone-project/src/snake.h
+cmath
+-
+iostream
+-
 
 /home/code/projects/Capstone-project/src/snake.h
 vector
